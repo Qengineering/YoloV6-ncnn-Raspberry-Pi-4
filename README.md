@@ -60,7 +60,7 @@ yolov6n.param <br/>
 ## Running the app.
 To run the application load the project file YoloV7.cbp in Code::Blocks. More info or<br/> 
 if you want to connect a camera to the app, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).<br/><br/>
-Many thanks to [nihui](https://github.com/nihui/) and [Xiang Shin Wuu](https://github.com/xiang-wuu)<br/><br/>
+Many thanks to [nihui](https://github.com/nihui/) and [FeiGeChuanShu](https://github.com/FeiGeChuanShu)<br/><br/>
 ![output image]( https://qengineering.eu/images/Busstop_YoloV6.jpg )
 
 ------------
