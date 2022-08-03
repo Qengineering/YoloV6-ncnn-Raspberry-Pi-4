@@ -61,6 +61,14 @@ yolov6n.param <br/>
 ## Running the app.
 To run the application load the project file YoloV7.cbp in Code::Blocks. More info or<br/> 
 if you want to connect a camera to the app, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).<br/><br/>
+
+------------
+
+### Dynamic sizes.
+YoloV6 can handle different input resolutions without changing the deep learning model.<br/>
+On line 28 of `yolov6main.cpp` you can change the `target_size` (default 640).<br/>
+Decreasing the size to say 412 will speed up the inference time. On the other hand, the resizing makes the image less detailed; the model will no longer detect all objects.<br/><br/>
+
 Many thanks to [nihui](https://github.com/nihui/) and [FeiGeChuanShu](https://github.com/FeiGeChuanShu)<br/><br/>
 ![output image]( https://qengineering.eu/images/Busstop_YoloV6.jpg )
 
