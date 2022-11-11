@@ -64,6 +64,12 @@ if you want to connect a camera to the app, follow the instructions at [Hands-On
 
 ------------
 
+## CMake.
+Instead of Code::Blocks, you can now use CMake to build the application.<br/>
+Please follow the instructions at [#12](https://github.com/Qengineering/Face-Recognition-Raspberry-Pi-64-bits/issues/12). Although it is used to build another application, the instructions and steps are identical.
+
+------------
+
 ### Dynamic sizes.
 YoloV6 can handle different input resolutions without changing the deep learning model.<br/>
 On line 28 of `yolov6main.cpp` you can change the `target_size` (default 640).<br/>
