@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 
-project(FaceRecognition)
+project(YoloV6)
 
 macro(use_cxx11)
   if (CMAKE_VERSION VERSION_LESS "3.1")
